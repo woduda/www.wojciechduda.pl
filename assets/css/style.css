@@ -71,7 +71,7 @@ h2 {
 
 .profile #wrapper {
 	padding: 100px 40px 0px;
-	max-width: 600px;
+	max-width: 720px;
 	margin: 0 auto;
 }
 
@@ -126,8 +126,8 @@ nav.main-nav a {
 	right: 6px;
 	padding: 8px 12px;
 	color: #5badf0;
-	font-size: 13px;
-	/*font-weight: bold;*/
+	font-size: 16px;
+	font-weight: bold;
 	line-height: 1.35;
 	border-radius: 3px;
 
@@ -139,17 +139,25 @@ nav.main-nav a.cta {
 }
 
 #wrapper {
-  max-width: 600px;
+  max-width: 720px;
   margin: 0 auto;
   padding: 60px 40px 100px 40px;
 }
 
 #wrapper.home {
-	max-width: 600px;
+	max-width: 720px;
 	margin: 0 auto;
 	padding: 0px 40px 20px 40px;
 }
-
+#wrapper.home .service {
+	text-align: center;
+}
+#wrapper.home .service h3 {
+	color: #5badf0;
+}
+#wrapper.home .service .fa {
+	margin: 0.2em 0;
+}
 .home #avatar {
 	float: right;
 	width: 40px;
@@ -182,8 +190,8 @@ a,
 	transition: all 0.15s ease;
 }
 
-ul 	{ margin:0; padding:0; }
-li	{ list-style-type:circle; list-style-position:inside; }
+ul 	{ margin:0; padding:0; margin-bottom: 0.3em; padding-left: 20px;}
+li	{ list-style-type:circle; list-style-position:outside; line-height: 1.2em; margin-bottom: 0.3em;}
 
 /* Line Height */
 #post-body, p { line-height:1.7; }
@@ -433,6 +441,15 @@ Post List
 	padding: 40px 0 0 0;
 	margin-top: 100px;
 }
+#footer .policy {
+	margin: 0 2em;
+}
+#footer .social {
+	float: right;
+}
+#footer .social .fa {
+	margin: 0 0.3em;
+}
 
 /* Post Page */
 #header {
@@ -627,7 +644,10 @@ h2.month {
 	#wrapper { padding:20px 20px 20px 20px;}
 	#header { margin-bottom: 60px; border-bottom: 1px solid #eee; }
 	.post { margin: 40px 0; }
-	#footer { margin-top: 60px; }
+	#footer { margin-top: 60px; text-align: center; }
+
+	#footer .policy { display: block; margin-top: 1em; }
+	#footer .social { float: none; display: block; margin-top: 1em; }
 
 	#post-list, #archive-list { margin-top: 0; }
 	#post-meta { margin-top: 60px; }

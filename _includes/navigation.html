@@ -1,12 +1,14 @@
 <nav class="main-nav">
     {% if page.url != "/index.html" %}
-        <a href="{{ site.baseurl }}"> <span class="arrow">←</span> Home </a>
+        <a href="{{ site.baseurl }}"> <span class="arrow">←</span> Strona główna </a>
     {% endif %}
 
-    {% if page.url != "/about/" %}
+    {% if page.url != "/o-mnie/" %}
         {% if site.aboutPage %}
-            <a href="{{ site.baseurl }}about">About </a>
+            <a href="{{ site.baseurl }}o-mnie/"> O mnie </a>
         {% endif %}
     {% endif %}
-    <a class="cta" href="{{ site.baseurl }}feed.xml">Subscribe</a>
+    {% if page.url != "/kontakt/" %}
+        <a href="{{ site.baseurl }}kontakt/"> Kontakt </a>
+    {% endif %}
 </nav>

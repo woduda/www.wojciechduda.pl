@@ -1,6 +1,6 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
-meta_description: "Your New Jekyll Site, Blogging about stuffs"
+name: "Wojciech Duda - Aplikacje webowe w PHP"
+description: "Aplikacje webowe w PHP"
+meta_description: "Aplikacje internetowe w PHP + JavaScript + HTML5. Integracje systemów informatycznych. Zarządzanie zasobami hostingowymi"
 
 aboutPage: true
 
@@ -9,15 +9,16 @@ highlighter: pygments
 
 paginate: 20
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
-google_analytics: 'UA-XXXXXXXX-X'
+domain_name: 'http://www.wojciechduda.pl'
+google_analytics: 'UA-9428621-1'
 disqus: false
 disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
-author:         'Your Name'
-authorTwitter:  'YourTwitterUsername'
+url:      'http://your-blog-url.example.com'
+author:   'Wojciech Duda'
+linkedin: 'https://pl.linkedin.com/in/wduda'
+github:   'https://github.com/woduda'
 
 permalink:       /:year/:title/
 
