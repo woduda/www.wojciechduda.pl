@@ -8,19 +8,22 @@ markdown: redcarpet
 highlighter: pygments
 
 paginate: 20
-baseurl: /
+baseurl: ''
 domain_name: 'http://www.wojciechduda.pl'
 google_analytics: 'UA-9428621-1'
 disqus: false
 disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
-url:      'http://your-blog-url.example.com'
+url:      'http://www.wojciechduda.pl'
 author:   'Wojciech Duda'
 linkedin: 'https://pl.linkedin.com/in/wduda'
 github:   'https://github.com/woduda'
 
 permalink:       /:year/:title/
+
+gems:
+  - jekyll-sitemap
 
 defaults:
     -
