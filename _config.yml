@@ -9,13 +9,13 @@ highlighter: pygments
 
 paginate: 20
 baseurl: ''
-domain_name: 'http://www.wojciechduda.pl'
+domain_name: 'https://www.wojciechduda.pl'
 google_analytics: 'UA-9428621-1'
 disqus: false
 disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
-url:      'http://www.wojciechduda.pl'
+url:      'https://www.wojciechduda.pl'
 author:   'Wojciech Duda'
 linkedin: 'https://pl.linkedin.com/in/wduda'
 github:   'https://github.com/woduda'

@@ -11,7 +11,7 @@ Od 2009 roku działam jako freelancer. Zlecenia realizuję samodzielnie lub jako
 
 Od kilku lat koncentruje się i rozwijam w zakresie następujących technik i technologii:
 
-* Języki programownia: PHP (OOP), JavaScript,
+* Języki programowania: PHP (OOP), JavaScript,
 * Frameworki: Kohana, CodeIgniter, 
 * Frontend: HTML5, CSS, jQuery, RWD, Bootstrap,
 * Techniki i architektury: MVC, ORM, Rest API, SOA,
