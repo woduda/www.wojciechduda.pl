@@ -11,17 +11,15 @@ Od 2009 roku działam jako freelancer. Zlecenia realizuję samodzielnie lub jako
 
 Od kilku lat koncentruje się i rozwijam w zakresie następujących technik i technologii:
 
-* Języki programowania: PHP (OOP), JavaScript,
-* Frameworki: Kohana, CodeIgniter, 
-* Frontend: HTML5, CSS, jQuery, RWD, Bootstrap,
-* Techniki i architektury: MVC, ORM, Rest API, SOA,
-* CMS: Wordpress
-* Narzędzia: Git, SVN, Composer, Grunt, Bower.
+* Języki programowania: PHP, Java Script
+* Frameworki i komponenty: Symfony, Slim, Doctrine, Kohana, CodeIgniter
+* Frontend: HTML5, CSS, jQuery, Bootstrap, Responsive Web Design
+* Wzorce projektowe i rozwiązania: MVC, ORM, Rest API
+* Narzędzia: Git, Composer, Grunt, Gulp, Bower
 
-Sprawnie administruję systemami linuxowymi, w tym serwerami:  
+Sprawnie administruję systemami linuxowymi, w tym serwerami:
 Apache, Nginx + PHP-FPM, MySQL, PostgreSQL.
 
 Więcej informacji o mnie można znaleźć na moim profilu na [LinkedIn]({{ site.linkedin }}).
-
 
 {% include footer.html %}

@@ -10,7 +10,7 @@ highlighter: pygments
 paginate: 20
 baseurl: ''
 domain_name: 'https://www.wojciechduda.pl'
-google_analytics: 'UA-9428621-1'
+#google_analytics: 'UA-9428621-1'
 disqus: false
 disqus_shortname: 'your-disqus-shortname'
 
@@ -22,8 +22,9 @@ github:   'https://github.com/woduda'
 
 permalink:       /:year/:title/
 
-gems:
+plugins:
   - jekyll-sitemap
+  - jekyll-paginate
 
 defaults:
     -
